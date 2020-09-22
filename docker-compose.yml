@@ -1,0 +1,12 @@
+version: '3'
+services:
+  multpoint:
+    image: multpoint
+    container_name: multipoint-container
+    hostname: ponto-01
+    build:
+        context: .
+    environment: 
+        - FirstRunning= Test first node.
+    ports:
+        - "8010:80"
