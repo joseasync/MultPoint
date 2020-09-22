@@ -6,7 +6,7 @@ WORKDIR /app
 COPY *.csproj ./
 RUN dotnet restore
 
-RUN pwsh -Command Write-Host "Simple MultPointer, generating a image and testing the PowerShellCore Updated"
+RUN pwsh -Command Write-Host "Simple MultPointer, generating a image and testing the PowerShellCore"
 
 #Build app
 COPY . ./
