@@ -1,1 +1,1 @@
-# Project used as weptest for my Kubernetes prototipe
+# Project used as webtest for my Kubernetes prototipe
